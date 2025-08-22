@@ -20,8 +20,8 @@ const splashScreen = true // recommended: for best behavior after refresh
 
 // --- 👋 Greeting Section ---
 const greeting = {
-    intro: "💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐",
-    name: "Люблю тебя жёнушка моя 💛.",
+    intro: "Hello, I'm",
+    name: "Elijah Lyimo.",
     // og: "I'm a computer science senior with hefty experience in app development. Previously worked as a web developer at my university, where I built tools to support both students and educators. Currently, I'm developing an educational AI tool aimed at redefining how college students interact with AI.",
     message: "💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐",
     basedLocation: "Austin, TX (USA)",
