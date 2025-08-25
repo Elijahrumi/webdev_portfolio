@@ -23,14 +23,14 @@ const greeting = {
     intro: "Hello, I'm",
     name: "Elijah Lyimo.",
     // og: "I'm a computer science senior with hefty experience in app development. Previously worked as a web developer at my university, where I built tools to support both students and educators. Currently, I'm developing an educational AI tool aimed at redefining how college students interact with AI.",
-    message: "💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐",
-    basedLocation: "Austin, TX (USA)",
+    message: "💻💻💻💻💻💻💻💻💻💻💻💻💻💻",
+    basedLocation: "Dar es Salaam, Tanzania(TZ)",
     resumeLink: "https://drive.google.com/file/d/1BEiPuAOCQPWc1RVN5Bn_7KyxhR0HL_bv/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
-        link: "images/initials.png", // use relative path from  parent directory -> ex: images/image.ext
+        link: "images/personal_logo.png", // use relative path from  parent directory -> ex: images/image.ext
         custom: true // takes precedence over image logo and allows for custom HTML logo (./components/Navbar.vue)
     },
-    portraitLink: 'images/flowers.jpeg'
+    portraitLink: 'images/elijah_portrait.jpg'
 }
 
 const socialMediaLinks = {
@@ -44,16 +44,16 @@ const socialMediaLinks = {
 // --- 😎 About Section ---
 const about = {
     autobiography: [
-        "My name is Maxim Shelepov, a software engineer and simply an engineer, currently working at IBM based in Austin, TX. I have a knack for solving problems and creating impactful software solutions. While in college, I worked as a web developer for my university's IT team, gaining extensive experience in industry-grade software and advanced app development practices.",
-        "Nowadays working on next-generation AI products and enterprise software solutions."
+        "My name is Elijah Rumi, a software engineer experienced in building software solutions. I have a knack for solving problems and creating impactful business software. While in college, I worked on client projects as a web developer, gaining hands-on experience with real-world systems and scalable app development practices.",
+        "Nowadays, I focus on SaaS products, POS systems, and enterprise solutions,  where I develop APIs, mobile apps, and third party integrations to support thousands of businesses"
     ], // Separated items are paragraphs
     techStack: [
         "JavaScript",
-        "TypeScript",
-        "React",
+        "Vue",
+        "Flutter",
+        "Laravel",
         "Node.js",
-        "Vue.js",
-        "Python"
+        "MySQL",
     ],
     photo1Link: "images/portrait1.jpeg",
     photo2Link: "images/portrait2.jpeg",
@@ -63,12 +63,12 @@ const about = {
 // --- 🛡️ Experience Section ---
 const experiences = [
     {
-        position: "Software Developer",
+        position: "Lead Software Developer",
         company: {
-            name: "IBM",
-            link: "https://ibm-zcouncil.com/venues/ibm-office-austin-tx/"
+            name: "Linda Pesa",
+            link: "https://www.lindapesa-ltd.com/en"
         },
-        duration: "May 2025 - Present",
+        duration: "Feb 2023 - Present",
         content: [
             {
                 sectionHeader: "",
@@ -79,19 +79,17 @@ const experiences = [
         ],
         hashtags: [
             "JavaScript",
-            "TypeScript",
-            "React.js",
-            "Vue.js",
+            "Vue",
+            "Flutter",
+            "Laravel",
             "Node.js",
-            "HTML",
-            "CSS",
-            "Sass",
+            "MySQL",
         ]
     },
     {
-        position: "Founder & Software Developer",
+        position: "Frontend Developer",
         company: {
-            name: "EduVaultAI",
+            name: "NPK Technologies",
             link: "https://blog.eduvaultai.com"
         },
         duration: "July 2024 - April 2025",
