@@ -34,11 +34,11 @@ const greeting = {
 }
 
 const socialMediaLinks = {
-    github: "https://github.com/mimaishel",
-    linkedin: "https://www.linkedin.com/in/maxim-shelepov1",
-    medium: "https://medium.com/@mimaishel",
-    stackoverflow: "",
-    xtwitter: "https://twitter.com/mimaishel"
+    github: "https://github.com/Elijahrumi",
+    linkedin: "https://www.linkedin.com/in/elijah-lyimo-194a69164/",
+    // medium: "https://medium.com/@mimaishel",
+    // stackoverflow: "",
+    // xtwitter: "https://twitter.com/mimaishel"
 } // to add any additional social media links check out the README.md or src/icons.js file
 
 // --- 😎 About Section ---
@@ -55,9 +55,9 @@ const about = {
         "Node.js",
         "MySQL",
     ],
-    photo1Link: "images/portrait1.jpeg",
-    photo2Link: "images/portrait2.jpeg",
-    photo3Link: "images/portrait3.jpeg"
+    photo1Link: "images/working1.jpg",
+    photo2Link: "images/working2.jpg",
+    photo3Link: "images/ccc_204.jpg"
 }
 
 // --- 🛡️ Experience Section ---
@@ -73,7 +73,7 @@ const experiences = [
             {
                 sectionHeader: "",
                 bulletPoints: [
-                    "Building next-generation AI products and enterprise software solutions.",
+                    "Building next-generation Business technology products and enterprise software solutions.",
                 ]
             }
         ],
@@ -89,21 +89,21 @@ const experiences = [
     {
         position: "Frontend Developer",
         company: {
-            name: "NPK Technologies",
-            link: "https://blog.eduvaultai.com"
+            name: "NPK Technologies/Aruti B.V.",
+            link: "https://www.aruti.com/"
         },
-        duration: "July 2024 - April 2025",
+        duration: "July 2022 - Feb 2023",
         content: [
             {
                 sectionHeader: "",
                 bulletPoints: [
-                    "Engineered a high-performance RESTful API backend with FastAPI, supporting a student dashboard and file management system for 5,000+ concurrent users, with files hosted on AWS S3.",
-                    "Containerized MariaDB, ChromaDB, and Llama model instances using Docker, enabling scalable and maintainable backend infrastructure.",
-                    "Automated test data generation using Python, creating 60,000 records/files in 4 min to streamline testing.",
-                    "Architected a scalable backend infrastructure capable of 2x future workloads with minimal code refactoring.",
-                    "Developed responsive UI components in Vue.js and Tailwind.css, reducing backend load by optimizing API calls.",
-                    "Led an Agile (Kanban) team creating milestone-based roadmaps and schedule, engaging in bug reporting, code reviews, maintaining documentation.",
-                    "Estimated compute and hosting costs, gathering user analytics to scale platform accordingly."
+                    "Developed the latest user front facing features using React.js or Vue.js as decided by the company from time to time.",
+                    "Worked with other frontend developers to implement interface screens and components for the cloud based HR software using React.js and Vue.js.",
+                    "Collaborated with backend developers to integrate RESTful APIs and ensure seamless data flow between frontend and backend systems.",
+                    "Optimized application performance by implementing best practices in code structure, state management, and asset loading.",
+                    "Conducted code reviews and provided constructive feedback to peers to maintain high code quality and consistency across the project.",
+                    "Participated in agile ceremonies including sprint planning, daily stand-ups, and retrospectives to ensure effective team collaboration and project progress.",
+                    "Created quality product wireframes and mockups/prototypes as per requirements and user stories whilst maintaining brand consistency."
                 ]
             }
         ],
@@ -119,32 +119,31 @@ const experiences = [
         ]
     },
     {
-        position: "Web Dev Intern",
+        position: "Backend Developer",
         company: {
-            name: "WolfTech",
-            link: "https://tools.wolftech.ncsu.edu/support/index.php/WolfTech_Information_Technology"
+            name: "Safari Soles Tours",
+            link: "https://safarisolestours.com/"
         },
-        duration: "Aug 2022 - Aug 2024",
+        duration: "Mar 2021 - Dec 2022",
         content: [
             {
-                sectionHeader: ["Williamboard Project - Solo Full-Stack Developer", "May 2023 - July 2024"],
+                // sectionHeader: ["Williamboard Project - Solo Full-Stack Developer", "May 2023 - July 2024"],
                 bulletPoints: [
-                    "Laid the groundwork for a multi-tenant modern digital sign management system for 360 screens across 50 campus organizations using Laravel, Vue.js, and Inertia.js.",
+                    "Designed and implemented the database and APIs to support dynamic management of tour packages, itineraries, images, and pricing through an admin panel using Laravel and Vue.",
                     "Designed MySQL database and Event-Driven app architecture to work with modern PHP and JS technologies.",
                     "Implemented a tenant permission-based system supporting 5 distinct user roles and organization-specific access.",
-                    "Configured WebSocket's API to collect screen data and display analytics on user-facing dashboards.",
-                    "Automated data migration of 15,000 records to new database structure in under 5 min using custom scripts.",
+                    "Automated deployment of updates to Live Environment using GitHub Actions, reducing manual deployment time by 75%.",
                 ]
             },
-            {
-                sectionHeader: ["Other Contributions", "Aug 2022 - May 2023"],
-                bulletPoints: [
-                    "Created an AI-driven LinkedIn post generator, integrating user profiles and files for personalized content.",
-                    "Built a search tool for 20,000 circuit design kits using PHP and SQL, achieving a 200ms average response time.",
-                    "Maintained and debugged email automation, research discovery, and scheduling apps, solving 10+ client issues.",
-                    "Mentored and assisted new interns into the team workflow shortening the onboarding period.",
-                ]
-            },
+            // {
+            //     sectionHeader: ["Other Contributions", "Aug 2022 - May 2023"],
+            //     bulletPoints: [
+            //         "Created an AI-driven LinkedIn post generator, integrating user profiles and files for personalized content.",
+            //         "Built a search tool for 20,000 circuit design kits using PHP and SQL, achieving a 200ms average response time.",
+            //         "Maintained and debugged email automation, research discovery, and scheduling apps, solving 10+ client issues.",
+            //         "Mentored and assisted new interns into the team workflow shortening the onboarding period.",
+            //     ]
+            // },
             // "Laid the groundwork for a multi-tenant modern digital sign management system for 360 screens across 50 campus organizations using Laravel, Vue.js, and Inertia.js.",
             // "Designed MySQL database and Event-Driven app architecture to work with modern PHP and JS technologies.",
             // "Implemented a tenant permission-based system supporting 5 distinct user roles and organization-specific access.",
@@ -162,7 +161,7 @@ const experiences = [
             "JS",
             "Vue.js",
             "HTML",
-            "Tailwind"
+            "CSS3"
         ]
     },
     // {
@@ -345,7 +344,7 @@ const contact = {
             "Reach out if you have any questions or want to collaborate on a project.",
         ], // paragraph breaks will be entered after each item,
         link: {
-            email: "mimaishel@gmail.com", // email takes precedance
+            email: "elijahrumi@gmail.com", // email takes precedance
             other: "https://forms.gle/W3MswTKsPWMxEbn58"
         },
         responseTimeMessage: ""

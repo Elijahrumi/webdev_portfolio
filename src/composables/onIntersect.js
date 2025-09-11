@@ -31,7 +31,14 @@ export const onIntersect = (elementToWatch, once = true, options = { threshold: 
     }, options);
 
     // Hook into components onMounted and onUnmounted states for setup and cleanup
-    onMounted(() => observer.observe(elementToWatch.value))
+    onMounted(() => {
+    if (elementToWatch.value instanceof Element) {
+        observer.observe(elementToWatch.value);
+    } else {
+        console.warn("elementToWatch is not a DOM element", elementToWatch.value);
+    }
+});
+
     onUnmounted(() => observer.disconnect())
 
     return visible;

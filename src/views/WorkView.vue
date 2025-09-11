@@ -1,5 +1,5 @@
 <template>
-    <section class="min-h-screen w-full" ref="workSection" id="work-section">
+    <!-- <section class="min-h-screen w-full" ref="workSection" id="work-section">
         <div class="relative flex py-5 items-center" :class="[visible ? 'translate-y-0 opacity-1 blur-0' : 'translate-y-4 opacity-0 blur-sm', 'transition-all motion-reduce:transition-none duration-500']">
             <h1 class="text-3xl font-bold pr-2 sm:pr-5">💻 Work</h1>
             <div class="flex-grow border-t border-black dark:border-white border-1"></div>
@@ -20,7 +20,7 @@
                 {{ showMore ? "Show Less" : "Show More" }}
             </button>
         </div>
-    </section>
+    </section> -->
 </template>
 <script setup>
 import { ref } from 'vue'
